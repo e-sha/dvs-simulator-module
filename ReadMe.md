@@ -38,7 +38,7 @@ events = sim.update(img, timestamp)
 
 It produces events as a dictionary with keys `timestamps`, `x_positions`, `y_positions` and `polarities`.
 Event components ha:
-* `uint64_t` for timestamps
+* `uint64_t` for timestamps (in microseconds)
 * `uint32_t` for x coordinates
 * `uint32_t` for y coordinates
 * `bool` for polarities
